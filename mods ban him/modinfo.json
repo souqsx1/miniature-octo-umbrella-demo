@@ -1,0 +1,31 @@
+{
+  "name": "Story Island Decorations",
+  "slug": "story-island-decor",
+  "author": "Run'nGun",
+  "description": "Adds some of the decorative items from Story Islands to your Raft. This mod is a work in progress, and more items will be added over time.",
+  "version": "3.2",
+  "license": "GNU AGPLv3",
+  "icon": "icon.png",
+  "banner": "banner.jpg",
+  "gameVersion": "1.0",
+  "requiredByAllPlayers": true,
+  "updateUrl": "https://www.raftmodding.com/api/v1/mods/story-island-decorations/version.txt",
+  "isModPermanent": true,
+  "excludedFiles": [],
+  "modSettings": [
+    {
+      "type": "checkbox",
+      "name": "easelGenericWallQuad",
+      "text": "Allow any wall item on easel",
+      "default": false,
+      "access": "globalworld",
+      "member": "ExtraSettings_UseGenericWallEaselQuad",
+      "memberRealtime": true,
+      "tooltip": [
+        "When enabled, the easel painting socket uses the vanilla Quad_Wall.",
+        "This allows any wall item to be placed on the easel.",
+        "Note: This may look weird with some items as generic wall items have not been ligned up for easel"
+      ]
+    }
+  ]
+}
